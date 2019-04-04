@@ -1,0 +1,39 @@
+generar proyecto
+mix new projectname
+
+compilar
+iex -S mix
+
+recompile
+
+install dependencies
+mix deps.get
+
+
+generar documentacion
+mix docs
+
+ejecutar pruebas
+mix test
+
+
+crear phoenix 
+mix phx.new projectname
+
+crear base de repositorio
+mix ecto.create
+
+iniciar server mix phx
+mix phx.server
+
+server shell
+ex -S mix phx.server
+
+generar migration files
+mix ecto.gen.migration topic_name
+
+correr migration files
+mix ecto.migrate
+
+mira rutas phoenix
+mix phx.routes
