@@ -4,6 +4,7 @@ mix new projectname
 compilar
 iex -S mix
 
+recompilar
 recompile
 
 install dependencies
